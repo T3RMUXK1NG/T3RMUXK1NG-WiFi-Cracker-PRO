@@ -1,0 +1,17 @@
+{
+    "app_name": "RS WiFi Cracker PRO",
+    "version": "4.0.1",
+    "author": "T3rmuxk1ng",
+    "release_type": "Private Release",
+    "log_dir": "/var/log/rs-wifi-pro",
+    "capture_dir": "/tmp/rs-wifi-captures",
+    "wordlist_dir": "/usr/share/wordlists/rs-wordlists",
+    "scan_timeout": 30,
+    "handshake_timeout": 300,
+    "crack_timeout": 3600,
+    "color_output": true,
+    "verbose": false,
+    "debug": false,
+    "use_gpu": true,
+    "auto_crack": false
+}
