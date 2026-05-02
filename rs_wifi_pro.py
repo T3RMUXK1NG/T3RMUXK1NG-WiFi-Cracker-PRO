@@ -221,6 +221,9 @@ class RSWiFiCrackerPRO:
                     results = self.scanner.scan(duration)
                     self.scan_results = results
                     self.display_networks(results)
+        except (ValueError, IndexError):
+            self.display.error("Invalid selection")
+
     def display_networks(self, networks):
         """Display scan results"""
         self.display.table_header([

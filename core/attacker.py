@@ -439,6 +439,7 @@ class AttackEngine:
             self.running = False
             for thread in self.attacks.values():
                 # Threads should check self.running
+                pass
     
     def get_status(self, attack_id: str) -> Optional[AttackResult]:
         """Get attack status"""
