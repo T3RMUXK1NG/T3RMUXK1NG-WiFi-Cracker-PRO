@@ -415,7 +415,8 @@ class AttackEngine:
             attack_id = self.launch(AttackType.PMKID, target)
             # Wait briefly
             time.sleep(30)
-            if self.results.get(attack_id, {}).status == AttackStatus.SUCCESS:
+            result = self.results.get(attack_id)
+            if result and result.status == AttackStatus.SUCCESS:
                 return attack_id
         
         # 3. Handshake capture

@@ -133,11 +133,11 @@ class NetworkScanner:
         'D-LINK': [('admin', 'admin'), ('admin', '(blank)')],
         'LINKSYS': [('admin', 'admin'), ('', 'admin')],
         'ASUS': [('admin', 'admin'), ('admin', 'password')],
-        'CISCO': [('admin', 'admin'), ['cisco', 'cisco']],
-        'BELKIN': [('admin', 'admin'), ['', 'admin']],
-        'TENDA': [('admin', 'admin'), ['admin', '']],
-        'HUAWEI': [('admin', 'admin'), ['user', 'user']],
-        'ZTE': [('admin', 'admin'), ['user', 'user']],
+        'CISCO': [('admin', 'admin'), ('cisco', 'cisco')],
+        'BELKIN': [('admin', 'admin'), ('', 'admin')],
+        'TENDA': [('admin', 'admin'), ('admin', '')],
+        'HUAWEI': [('admin', 'admin'), ('user', 'user')],
+        'ZTE': [('admin', 'admin'), ('user', 'user')],
     }
     
     def __init__(self, interface: str):
@@ -203,7 +203,7 @@ class NetworkScanner:
             return "5GHz"
         elif 183 <= channel <= 196:
             return "4.9GHz"
-        elif 1 <= channel <= 8:  # 6GHz channels
+        elif channel > 196:
             return "6GHz"
         return "Unknown"
     

@@ -10,6 +10,7 @@
 
 import os
 import sys
+import time
 import argparse
 import threading
 import multiprocessing
@@ -833,5 +834,4 @@ def main():
 
 
 if __name__ == '__main__':
-    import time
     main()
