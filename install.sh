@@ -46,18 +46,18 @@ pip3 install scapy requests colorama tqdm rich tabulate psutil netifaces 2>/dev/
 
 # Create directories
 echo -e "${C}[*] Creating directories...${RESET}"
-mkdir -p /opt/rs-wifi-pro
+mkdir -p /opt/t3rmuxk1ng-wifi-pro
 mkdir -p /usr/share/wordlists/rs-wordlists
-mkdir -p /var/log/rs-wifi-pro
-mkdir -p ~/.config/rs-wifi-pro
+mkdir -p /var/log/t3rmuxk1ng-wifi-pro
+mkdir -p ~/.config/t3rmuxk1ng-wifi-pro
 
 # Copy files
 echo -e "${C}[*] Installing RS WiFi Cracker PRO...${RESET}"
-cp -r . /opt/rs-wifi-pro/
-chmod +x /opt/rs-wifi-pro/t3rmuxk1ng_wifi_pro.py
+cp -r . /opt/t3rmuxk1ng-wifi-pro/
+chmod +x /opt/t3rmuxk1ng-wifi-pro/t3rmuxk1ng_wifi_pro.py
 
 # Create symlink
-ln -sf /opt/rs-wifi-pro/t3rmuxk1ng_wifi_pro.py /usr/local/bin/rs-wifi-pro 2>/dev/null || true
+ln -sf /opt/t3rmuxk1ng-wifi-pro/t3rmuxk1ng_wifi_pro.py /usr/local/bin/t3rmuxk1ng-wifi-pro 2>/dev/null || true
 
 # Generate wordlists
 echo -e "${C}[*] Generating wordlists...${RESET}"
@@ -69,7 +69,7 @@ print('Wordlist generated')
 " 2>/dev/null || echo "Wordlist generation skipped"
 
 # Create alias
-echo "alias rs-wifi='sudo python3 /opt/rs-wifi-pro/t3rmuxk1ng_wifi_pro.py'" >> /etc/bash.bashrc 2>/dev/null || true
+echo "alias rs-wifi='sudo python3 /opt/t3rmuxk1ng-wifi-pro/t3rmuxk1ng_wifi_pro.py'" >> /etc/bash.bashrc 2>/dev/null || true
 
 echo -e "${G}"
 echo "╔═══════════════════════════════════════════════════════════════════╗"
@@ -78,8 +78,8 @@ echo "╚═══════════════════════�
 echo -e "${RESET}"
 echo ""
 echo -e "${G}Usage:${RESET}"
-echo -e "  ${W}rs-wifi-pro${RESET}              # Interactive mode"
-echo -e "  ${W}sudo python3 /opt/rs-wifi-pro/t3rmuxk1ng_wifi_pro.py${RESET}"
+echo -e "  ${W}t3rmuxk1ng-wifi-pro${RESET}              # Interactive mode"
+echo -e "  ${W}sudo python3 /opt/t3rmuxk1ng-wifi-pro/t3rmuxk1ng_wifi_pro.py${RESET}"
 echo ""
 echo -e "${G}Wordlists:${RESET}"
 echo -e "  ${W}/usr/share/wordlists/rs-wordlists/wifi_common.txt${RESET}"

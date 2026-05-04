@@ -11,7 +11,7 @@ from typing import Dict, List, Optional
 
 class Database:
     def __init__(self, db_path: str = None):
-        self.db_path = db_path or str(Path.home() / '.local' / 'share' / 'rs-wifi-pro' / 'data.db')
+        self.db_path = db_path or str(Path.home() / '.local' / 'share' / 't3rmuxk1ng-wifi-pro' / 'data.db')
         Path(self.db_path).parent.mkdir(parents=True, exist_ok=True)
         self.conn = None
     

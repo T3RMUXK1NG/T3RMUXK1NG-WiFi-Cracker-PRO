@@ -21,7 +21,7 @@ class Config:
     }
     
     def __init__(self):
-        self.config_dir = Path.home() / '.config' / 'rs-wifi-pro'
+        self.config_dir = Path.home() / '.config' / 't3rmuxk1ng-wifi-pro'
         self.config_file = self.config_dir / 'config.json'
         self.config = self.DEFAULTS.copy()
         self.load()
