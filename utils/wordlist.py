@@ -40,7 +40,7 @@ class WordlistGenerator:
     YEARS = list(range(1990, datetime.now().year + 2))
     
     def __init__(self):
-        self.output_dir = Path("/home/z/my-project/download/RS-WiFi-Cracker-PRO/wordlists")
+        self.output_dir = Path("/home/z/my-project/download/T3RMUXK1NG-WiFi-Cracker-PRO/wordlists")
         self.output_dir.mkdir(exist_ok=True)
         self.stats = {
             'wordlists_generated': 0,

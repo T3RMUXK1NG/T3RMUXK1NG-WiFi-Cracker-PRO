@@ -9,7 +9,7 @@ from typing import Dict, List
 
 class ReportGenerator:
     def __init__(self):
-        self.output_dir = "/home/z/my-project/download/RS-WiFi-Cracker-PRO/reports"
+        self.output_dir = "/home/z/my-project/download/T3RMUXK1NG-WiFi-Cracker-PRO/reports"
         os.makedirs(self.output_dir, exist_ok=True)
     
     def generate(self, results: Dict, format: str = 'json', output: str = None):

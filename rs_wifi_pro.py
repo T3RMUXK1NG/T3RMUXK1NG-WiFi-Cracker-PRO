@@ -97,7 +97,7 @@ class RSWiFiCrackerPRO:
         # Check root
         if os.geteuid() != 0:
             self.display.error("This tool requires root privileges!")
-            self.display.info("Run with: sudo python3 rs_wifi_pro.py")
+            self.display.info("Run with: sudo python3 t3rmuxk1ng_wifi_pro.py")
             sys.exit(1)
         
         # Initialize database

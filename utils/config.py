@@ -13,7 +13,7 @@ class Config:
         'capture_duration': 120,
         'deauth_count': 10,
         'wordlist': '/usr/share/wordlists/rockyou.txt',
-        'output_dir': '/tmp/rs_wifi_output',
+        'output_dir': '/tmp/t3rmuxk1ng_wifi_output',
         'log_level': 'INFO',
         'auto_save': True,
         'colors': True,

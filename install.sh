@@ -54,10 +54,10 @@ mkdir -p ~/.config/rs-wifi-pro
 # Copy files
 echo -e "${C}[*] Installing RS WiFi Cracker PRO...${RESET}"
 cp -r . /opt/rs-wifi-pro/
-chmod +x /opt/rs-wifi-pro/rs_wifi_pro.py
+chmod +x /opt/rs-wifi-pro/t3rmuxk1ng_wifi_pro.py
 
 # Create symlink
-ln -sf /opt/rs-wifi-pro/rs_wifi_pro.py /usr/local/bin/rs-wifi-pro 2>/dev/null || true
+ln -sf /opt/rs-wifi-pro/t3rmuxk1ng_wifi_pro.py /usr/local/bin/rs-wifi-pro 2>/dev/null || true
 
 # Generate wordlists
 echo -e "${C}[*] Generating wordlists...${RESET}"
@@ -69,7 +69,7 @@ print('Wordlist generated')
 " 2>/dev/null || echo "Wordlist generation skipped"
 
 # Create alias
-echo "alias rs-wifi='sudo python3 /opt/rs-wifi-pro/rs_wifi_pro.py'" >> /etc/bash.bashrc 2>/dev/null || true
+echo "alias rs-wifi='sudo python3 /opt/rs-wifi-pro/t3rmuxk1ng_wifi_pro.py'" >> /etc/bash.bashrc 2>/dev/null || true
 
 echo -e "${G}"
 echo "╔═══════════════════════════════════════════════════════════════════╗"
@@ -79,7 +79,7 @@ echo -e "${RESET}"
 echo ""
 echo -e "${G}Usage:${RESET}"
 echo -e "  ${W}rs-wifi-pro${RESET}              # Interactive mode"
-echo -e "  ${W}sudo python3 /opt/rs-wifi-pro/rs_wifi_pro.py${RESET}"
+echo -e "  ${W}sudo python3 /opt/rs-wifi-pro/t3rmuxk1ng_wifi_pro.py${RESET}"
 echo ""
 echo -e "${G}Wordlists:${RESET}"
 echo -e "  ${W}/usr/share/wordlists/rs-wordlists/wifi_common.txt${RESET}"

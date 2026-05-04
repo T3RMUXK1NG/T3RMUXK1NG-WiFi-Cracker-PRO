@@ -5,7 +5,7 @@
 **Advanced WiFi security testing suite with AI-powered cracking, GPU acceleration, and 8+ attack modules**
 
 [![Language](https://img.shields.io/badge/Language-Python-yellow?logo=python)](https://python.org)
-[![Version](https://img.shields.io/badge/Version-3.0-red)](https://github.com/rajsaraswati-jatavv/RS-WiFi-Cracker-PRO/releases)
+[![Version](https://img.shields.io/badge/Version-3.0-red)](https://github.com/T3RMUXK1NG/T3RMUXK1NG-WiFi-Cracker-PRO/releases)
 [![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-blue?logo=linux)](https://www.kali.org)
 [![YouTube](https://img.shields.io/badge/YouTube-T3rmuxk1ng-red?logo=youtube)](https://youtube.com/@T3rmuxk1ng)
 [![License](https://img.shields.io/badge/License-Educational-yellow)](./LICENSE)
@@ -66,17 +66,17 @@ Subscribe for WiFi hacking tutorials, security tool demos, and exclusive walkthr
 
 ### Quick Install
 ```bash
-git clone https://github.com/rajsaraswati-jatavv/RS-WiFi-Cracker-PRO.git
-cd RS-WiFi-Cracker-PRO
+git clone https://github.com/T3RMUXK1NG/T3RMUXK1NG-WiFi-Cracker-PRO.git
+cd T3RMUXK1NG-WiFi-Cracker-PRO
 chmod +x install.sh
 sudo ./install.sh
-python3 rs_wifi_pro.py
+python3 t3rmuxk1ng_wifi_pro.py
 ```
 
 ### Manual Install
 ```bash
 pip3 install -r requirements.txt 2>/dev/null || pip3 install scapy colorama requests
-sudo python3 rs_wifi_pro.py
+sudo python3 t3rmuxk1ng_wifi_pro.py
 ```
 
 ---
@@ -85,22 +85,22 @@ sudo python3 rs_wifi_pro.py
 
 ### Interactive Mode
 ```bash
-sudo python3 rs_wifi_pro.py
+sudo python3 t3rmuxk1ng_wifi_pro.py
 ```
 
 ### CLI Mode
 ```bash
 # Scan for networks
-sudo python3 rs_wifi_pro.py --interface wlan0 --scan
+sudo python3 t3rmuxk1ng_wifi_pro.py --interface wlan0 --scan
 
 # WPS attack on specific target
-sudo python3 rs_wifi_pro.py --interface wlan0 --attack wps --target AA:BB:CC:DD:EE:FF
+sudo python3 t3rmuxk1ng_wifi_pro.py --interface wlan0 --attack wps --target AA:BB:CC:DD:EE:FF
 
 # Evil Twin AP
-sudo python3 rs_wifi_pro.py --interface wlan0 --evil-twin --ssid "FreeWiFi"
+sudo python3 t3rmuxk1ng_wifi_pro.py --interface wlan0 --evil-twin --ssid "FreeWiFi"
 
 # PMKID attack
-sudo python3 rs_wifi_pro.py --interface wlan0 --attack pmkid --target AA:BB:CC:DD:EE:FF
+sudo python3 t3rmuxk1ng_wifi_pro.py --interface wlan0 --attack pmkid --target AA:BB:CC:DD:EE:FF
 ```
 
 ---
@@ -108,8 +108,8 @@ sudo python3 rs_wifi_pro.py --interface wlan0 --attack pmkid --target AA:BB:CC:D
 ## 📁 Project Structure
 
 ```
-RS-WiFi-Cracker-PRO/
-├── rs_wifi_pro.py          # Main entry point
+T3RMUXK1NG-WiFi-Cracker-PRO/
+├── t3rmuxk1ng_wifi_pro.py          # Main entry point
 ├── install.sh              # Installation script
 ├── core/                   # Core functionality
 │   ├── scanner.py          # Network scanning

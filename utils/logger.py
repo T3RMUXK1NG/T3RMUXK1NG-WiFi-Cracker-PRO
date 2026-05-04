@@ -8,14 +8,14 @@ from datetime import datetime
 from pathlib import Path
 
 class Logger:
-    def __init__(self, log_dir: str = "/tmp/rs_wifi_logs"):
+    def __init__(self, log_dir: str = "/tmp/t3rmuxk1ng_wifi_logs"):
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(exist_ok=True)
         self.log_file = self.log_dir / f"session_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
         self._setup_logging()
     
     def _setup_logging(self):
-        self.logger = logging.getLogger('RS-WiFi-PRO')
+        self.logger = logging.getLogger('T3RMUXK1NG-WiFi-PRO')
         self.logger.setLevel(logging.DEBUG)
         fh = logging.FileHandler(self.log_file)
         fh.setLevel(logging.DEBUG)
