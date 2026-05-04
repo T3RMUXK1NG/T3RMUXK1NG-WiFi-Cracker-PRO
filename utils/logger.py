@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""RS WiFi Cracker PRO - Logger Utility"""
+"""T3RMUXK1NG WiFi Cracker PRO - Logger Utility"""
 
 import os
 import logging

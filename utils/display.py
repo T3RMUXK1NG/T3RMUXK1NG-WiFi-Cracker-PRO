@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""RS WiFi Cracker PRO - Display Utility"""
+"""T3RMUXK1NG WiFi Cracker PRO - Display Utility"""
 
 import os
 
@@ -71,7 +71,7 @@ class Display:
     
     def help(self):
         print(f"""
-{C}RS WiFi Cracker PRO - Help{RESET}
+{C}T3RMUXK1NG WiFi Cracker PRO - Help{RESET}
 
 {G}Workflow:{RESET}
   1. Select interface (auto-detected on start)

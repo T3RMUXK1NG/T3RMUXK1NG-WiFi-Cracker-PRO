@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-RS WiFi Cracker PRO - Wordlist Generator Utility
+T3RMUXK1NG WiFi Cracker PRO - Wordlist Generator Utility
 Advanced password wordlist generation
 """
 

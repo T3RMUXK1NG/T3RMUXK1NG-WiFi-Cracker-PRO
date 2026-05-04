@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-RS WiFi Cracker PRO - Password Cracker Module
+T3RMUXK1NG WiFi Cracker PRO - Password Cracker Module
 Multi-method password cracking with GPU acceleration support
 """
 

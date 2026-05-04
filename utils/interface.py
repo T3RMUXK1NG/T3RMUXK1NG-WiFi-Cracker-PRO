@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-RS WiFi Cracker PRO - Interface Manager Utility
+T3RMUXK1NG WiFi Cracker PRO - Interface Manager Utility
 Network interface management
 """
 

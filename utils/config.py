@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""RS WiFi Cracker PRO - Configuration Utility"""
+"""T3RMUXK1NG WiFi Cracker PRO - Configuration Utility"""
 
 import os
 import json

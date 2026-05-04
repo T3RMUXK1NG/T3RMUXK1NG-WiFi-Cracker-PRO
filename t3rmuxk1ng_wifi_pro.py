@@ -92,7 +92,7 @@ class RSWiFiCrackerPRO:
     
     def initialize(self, interface: str = None):
         """Initialize all modules"""
-        self.logger.info("Initializing RS WiFi Cracker PRO...")
+        self.logger.info("Initializing T3RMUXK1NG WiFi Cracker PRO...")
         
         # Check root
         if os.geteuid() != 0:
@@ -801,7 +801,7 @@ class RSWiFiCrackerPRO:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="RS WiFi Cracker PRO - Advanced WiFi Security Testing Toolkit",
+        description="T3RMUXK1NG WiFi Cracker PRO - Advanced WiFi Security Testing Toolkit",
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     
@@ -820,7 +820,7 @@ def main():
     parser.add_argument('--ssid', help='SSID for Evil Twin')
     parser.add_argument('--dashboard', action='store_true', help='Start web dashboard')
     parser.add_argument('--port', type=int, default=8080, help='Dashboard port')
-    parser.add_argument('-v', '--version', action='version', version=f'RS WiFi Cracker PRO v{__version__}')
+    parser.add_argument('-v', '--version', action='version', version=f'T3RMUXK1NG WiFi Cracker PRO v{__version__}')
     
     args = parser.parse_args()
     

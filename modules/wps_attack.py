@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-RS WiFi Cracker PRO - WPS Attack Module
+T3RMUXK1NG WiFi Cracker PRO - WPS Attack Module
 WPS Pixie Dust, PIN Brute Force, and related attacks
 """
 

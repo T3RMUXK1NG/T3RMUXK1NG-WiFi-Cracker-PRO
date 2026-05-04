@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📡 RS WiFi Cracker PRO
+# 📡 T3RMUXK1NG WiFi Cracker PRO
 
 **Advanced WiFi security testing suite with AI-powered cracking, GPU acceleration, and 8+ attack modules**
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""RS WiFi Cracker PRO - Report Generator Module"""
+"""T3RMUXK1NG WiFi Cracker PRO - Report Generator Module"""
 
 import os
 import json
@@ -45,12 +45,12 @@ class ReportGenerator:
         cracked = sum(1 for r in results.values() if r.get('success'))
         
         return f'''<!DOCTYPE html>
-<html><head><title>RS WiFi Cracker Report</title>
+<html><head><title>T3RMUXK1NG WiFi Cracker Report</title>
 <style>body{{font-family:Arial;background:#1a1a2e;color:#eee;padding:20px;}}
 table{{width:100%;border-collapse:collapse;margin:20px 0;}}
 th,td{{padding:10px;border:1px solid #333;text-align:left;}}
 th{{background:#00d4ff;color:#000;}}.success{{color:#0f0;}}.failed{{color:#f00;}}</style>
-</head><body><h1>RS WiFi Cracker PRO Report</h1>
+</head><body><h1>T3RMUXK1NG WiFi Cracker PRO Report</h1>
 <p>Generated: {datetime.now().isoformat()}</p>
 <p>Total: {len(results)} | Cracked: {cracked}</p>
 <table><tr><th>BSSID</th><th>ESSID</th><th>Status</th><th>Password</th><th>Method</th></tr>
@@ -67,7 +67,7 @@ th{{background:#00d4ff;color:#000;}}.success{{color:#0f0;}}.failed{{color:#f00;}
         return rows
     
     def _generate_markdown(self, results: Dict) -> str:
-        md = f'''# RS WiFi Cracker PRO Report
+        md = f'''# T3RMUXK1NG WiFi Cracker PRO Report
 
 Generated: {datetime.now().isoformat()}
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-RS WiFi Cracker PRO - PMKID Attack Module
+T3RMUXK1NG WiFi Cracker PRO - PMKID Attack Module
 Offline WPA/WPA2 attack without client interaction
 """
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-RS WiFi Cracker PRO - Evil Twin Module
+T3RMUXK1NG WiFi Cracker PRO - Evil Twin Module
 Rogue Access Point with captive portal and credential harvesting
 """
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""RS WiFi Cracker PRO - Plugin Manager"""
+"""T3RMUXK1NG WiFi Cracker PRO - Plugin Manager"""
 
 import os
 import importlib

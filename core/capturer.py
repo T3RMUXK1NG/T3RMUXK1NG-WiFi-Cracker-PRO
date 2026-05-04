@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-RS WiFi Cracker PRO - Handshake Capturer Module
+T3RMUXK1NG WiFi Cracker PRO - Handshake Capturer Module
 Advanced WPA/WPA2/PMKID handshake capture with multiple methods
 """
 

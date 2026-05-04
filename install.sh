@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  RS WiFi Cracker PRO - Installation Script
+#  T3RMUXK1NG WiFi Cracker PRO - Installation Script
 #  T3rmuxk1ng Private Release
 #
 
@@ -15,7 +15,7 @@ RESET='\033[0m'
 
 echo -e "${C}"
 echo "╔═══════════════════════════════════════════════════════════════════╗"
-echo "║          RS WiFi Cracker PRO - Installation Script                ║"
+echo "║          T3RMUXK1NG WiFi Cracker PRO - Installation Script                ║"
 echo "║                 T3rmuxk1ng Private Release                        ║"
 echo "╚═══════════════════════════════════════════════════════════════════╝"
 echo -e "${RESET}"
@@ -52,7 +52,7 @@ mkdir -p /var/log/t3rmuxk1ng-wifi-pro
 mkdir -p ~/.config/t3rmuxk1ng-wifi-pro
 
 # Copy files
-echo -e "${C}[*] Installing RS WiFi Cracker PRO...${RESET}"
+echo -e "${C}[*] Installing T3RMUXK1NG WiFi Cracker PRO...${RESET}"
 cp -r . /opt/t3rmuxk1ng-wifi-pro/
 chmod +x /opt/t3rmuxk1ng-wifi-pro/t3rmuxk1ng_wifi_pro.py
 

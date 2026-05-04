@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-RS WiFi Cracker PRO - Attack Engine Module
+T3RMUXK1NG WiFi Cracker PRO - Attack Engine Module
 Unified attack orchestration and execution
 """
 
