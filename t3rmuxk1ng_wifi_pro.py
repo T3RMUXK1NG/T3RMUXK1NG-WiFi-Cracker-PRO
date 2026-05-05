@@ -143,7 +143,7 @@ class RSWiFiCrackerPRO:
         """Run interactive menu"""
         while self.running:
             self.display.main_menu()
-            choice = input(f"\n{self.display.color('yellow')}RS-PRO> {self.display.color('reset')}")
+            choice = input(f"\n{self.display.color('yellow')}T3RMUXK1NG-PRO> {self.display.color('reset')}")
             
             if choice == '0':
                 self.shutdown()
